@@ -4,8 +4,6 @@
 }
 
 img {
-    border: black;
-    border-style: solid;
     border-radius: 8px;
 }
 
@@ -13,16 +11,19 @@ img {
     background-color: #db0404;
 }
 
-.header {
+.header-links {
     display: flex;
     justify-content: space-between;
+    justify-content: flex-end;
     padding: 24px 240px;
-}
-
-.links {
-    display: flex;
     gap: 32px;
     font-weight: bold;
+}
+
+.header-logo {
+    display: flex;
+    padding: 24px 240px;
+    margin-top: -65px;
 }
 
 .hero {
@@ -43,12 +44,12 @@ img {
 }
 
 .heroimg {
-    width: 600px;
-    height: 350px;
+    width: 650px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .main-text,
