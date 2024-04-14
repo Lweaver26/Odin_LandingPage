@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-body {
-    min-width: 1100px;
+img {
+    border: black;
+    border-style: solid;
+    border-radius: 8px;
 }
 
 .section1 {
@@ -59,14 +61,13 @@ h1 {
     font-weight: bolder;
 }
 
-button {
+.hero-button {
     padding: 8px 16px;
     border-radius: 8px;
     background-color: #3882F6;
     font-weight: bold;
     margin-top: 5px;
     color: white;
-    border: none;
 }
 
 .s2-content {
@@ -79,5 +80,85 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-top: 50px;
+}
+
+.images {
+    width: 150px;
+}
+
+.hockey1,
+.hockey2,
+.hockey3,
+.hockey4 {
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #989c99;
+}
+
+.s3-content {
+    padding: 24px 240px;
+    text-align: center;
+}
+
+.s3-text {
+    padding: 24px 240px;
+    font-size: 36px;
+    font-style: italic;
+    font: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.section4 {
+    padding: 24px 240px;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 40px 240px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.cta-text {
+    color: white;
+}
+
+.cta-button {
+    padding: 8px 48px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+    border-color: white;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: #1F2937;
 }
 
