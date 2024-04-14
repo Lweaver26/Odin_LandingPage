@@ -159,6 +159,9 @@ h1 {
 }
 
 .footer {
+    padding: 24px 240px;
     background-color: #1F2937;
+    color: white;
+    text-align: center;
 }
 
